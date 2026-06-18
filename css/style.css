@@ -243,6 +243,17 @@ button {
     color: var(--accent);
 }
 
+.hero-btn-outline {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .scroll-indicator {
     position: absolute;
     bottom: 30px;
